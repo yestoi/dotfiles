@@ -9,6 +9,6 @@ prompt  pure
 prompt_newline='%666v'
 PROMPT=" $PROMPT"
 
-source ./zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 alias config='/usr/bin/git --git-dir=/Users/trey/.dotfiles/ --work-tree=/Users/trey'
